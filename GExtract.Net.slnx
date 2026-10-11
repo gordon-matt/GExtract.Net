@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GExtract/GExtract.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GExtract.Tests/GExtract.Tests.csproj" />
+  </Folder>
+</Solution>
