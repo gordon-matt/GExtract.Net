@@ -2,7 +2,7 @@ namespace GExtract.Tests;
 
 public class SampleRomTests
 {
-    private const string SampleDirectory = @"D:\Users\Matt\Downloads\gextract\Sample ROMs";
+    internal const string SampleDirectory = @"D:\Sample ROMs";
 
     [Fact]
     public void Sample_headers_match_the_rom_files()

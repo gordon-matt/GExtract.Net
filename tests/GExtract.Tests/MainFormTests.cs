@@ -61,7 +61,7 @@ public class MainFormTests
                     throw new InvalidOperationException("Extraction choices should be disabled until a ROM is loaded.");
 
                 var romBox = FindAll<TextBox>(form).First();
-                romBox.Text = @"D:\Users\Matt\Downloads\gextract\Sample ROMs\Flying Warriors (USA).nes";
+                romBox.Text = Path.Combine(SampleRomTests.SampleDirectory, "Flying Warriors (USA).nes");
                 romBox.Focus();
                 form.SelectNextControl(romBox, forward: true, tabStopOnly: true, nested: true, wrap: true);
                 Application.DoEvents();
